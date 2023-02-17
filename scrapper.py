@@ -11,8 +11,8 @@ import logging
 logging.basicConfig(filename="scrapper.log", level=logging.DEBUG, filemode='w',
                     format="%(asctime)s %(levelname)s %(message)s")
 
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
+#load_dotenv()
+API_KEY = "AIzaSyCWjOqPt0_sxoErum-BegpDwViqhRFh5u0"
 api_service_name = "youtube"
 api_version = "v3"
 youtube = build(api_service_name, api_version, developerKey=API_KEY)
